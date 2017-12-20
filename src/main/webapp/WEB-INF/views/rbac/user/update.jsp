@@ -26,14 +26,14 @@
             <div class="form-group" style="margin-top: 50px">
                 <div class="input-group">
                     <div class="input-group-addon">用户名</div>
-                    <input class="form-control"  name="username" id="username" value="${user.username}" disabled/>
+                    <input class="form-control"  name="username" id="username" value="${user.username}" />
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-addon">用户密码</div>
                     <input class="form-control" placeholder="password" type="password"
-                           name="password" id="password" value="${user.password}"disabled/>
+                           name="password" id="password" value="${user.password}"/>
                 </div>
             </div>
             <div class="form-group">
