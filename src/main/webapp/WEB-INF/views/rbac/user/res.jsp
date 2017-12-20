@@ -35,8 +35,8 @@
                 <td>${ress.url}</td>
                 <td>${ress.permission}</td>
                 <td>
-                    <a  class="btn btn-info" href="${ctx}/user/update/${users.id}">更新</a>
-                    <a  class="btn btn-info" href="${ctx}/user/res/${users.id}">查看资源管理</a>
+                    <a  class="btn btn-info" href="${ctx}/user/update/${user.id}">更新</a>
+                    <a  class="btn btn-info" href="${ctx}/user/res/${user.id}">查看资源管理</a>
                 </td>
             </tr>
         </c:forEach>
